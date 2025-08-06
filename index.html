@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>My profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background-color: #f7f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 32px 24px;
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 18px;
+      border: 4px solid #e0e0e0;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background: #eee;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.2em;
+      margin: 0 0 10px 0;
+    }
+    .subtitle {
+      text-align: center;
+      color: #888;
+      margin-bottom: 22px;
+    }
+    .section {
+      margin: 26px 0;
+    }
+    .section-title {
+      font-size: 1.2em;
+      margin-bottom: 12px;
+      color: #3466f6;
+      border-left: 4px solid #3466f6;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: disc inside;
+      padding-left: 12px;
+    }
+    a {
+      color: #3466f6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 18px 6px; }
+      .profile-pic { width: 100px; height: 100px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- 替换 src 为你的照片链接 -->
+    <img src="https://via.placeholder.com/140x140.png?text=Your+Photo" alt="个人照片" class="profile-pic">
+    <h1>Haoqi Zhang</h1>
+    <div class="section">
+      <div class="section-title">About me</div>
+      <p>
+        I'm a first-year Mphil student at Dept. of Computer Science & Engineering (CSE), The Hong Kong University of Science and Technology (HKUST), advised by Prof. Long Chen. Before that, I received my Bachelor's degree in computer science and engineering from The Chinese University of Hong Kong, Shenzhen (CUHKSZ) in 2025.
+      </p>
+    </div>
+    <div class="section">
+      <div class="section-title">Research interests</div>
+      <ul>
+        <li><a href="#">Multimodal</a> - Multimodal Large Language Model</li>
+        <li><a href="#">Natural Language processing</a> - 简要说明</li>
+      </ul>
+    </div>
+    <div class="section">
+      <div class="section-title">联系方式</div>
+      <ul>
+        <li>Email: <a href="mailto:hzhangga@connect.ust.hk">hzhangga@connect.ust.hk</a></li>
+        <li>GitHub: <a href="https://github.com/N1ana7mi" target="_blank">N1ana7mi</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
